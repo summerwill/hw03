@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v3.js"></script>
+    
+</head>
+
+<body>
+    <script>
+        var index = ["中國國⺠民黨", "⺠民主進步黨", "時代⼒力力量量", "無黨團結聯聯盟", "親⺠民黨"];
+        var color = ['blue', 'green', 'yellow', 'gray', 'orange'];
+        var xScale = d3.scale.ordinal()
+            .domain(index)
+            .range(color);
+    console.log(xScale("中國國民黨"))
+     
+
+    </script>
+   
+  
+    
+</body>
+
+</html>
